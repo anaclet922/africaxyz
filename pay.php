@@ -24,7 +24,7 @@
 
 	if(isset($_POST['fees'])){
 		if($_POST['fees'] == 'yes'){
-			$amount_ = $amount_ + ($amount_ * 5 / 100);
+			$amount_ = $amount_ + ($amount_ * 5 / 100); // suppossed transaction fees for flutterwave is 5%
 		}
 	}
 

@@ -75,7 +75,7 @@
 						</div>
 					</div>
 					<br>
-					<input type="checkbox" name="fees" value="yes"><label>I'll cover transaction fees</label>
+					<input type="checkbox" name="fees" value="yes" id="fee_a"><label for="fee_a">I'll cover transaction fees</label>
 					<br><br>
 					<button class="btn btn-primary" type="submit">Donate</button>
 				</form>
