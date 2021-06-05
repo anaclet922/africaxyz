@@ -12,9 +12,9 @@
 			$amount_ = $amount;
 		}else{
 			echo '<script>location.href="'. $base_url .'?error=zero"</script>';
+			die();
 		}
 	}
-
 	$amount_ = (int) $amount_;
 
 	if(!is_int($amount_)){
@@ -87,6 +87,7 @@
 	    }
 	    else{	    	
 			echo '<script>location.href="'. $base_url .'?error=canceled"</script>';
+			die();
 	    }
 
 
