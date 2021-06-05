@@ -1,7 +1,7 @@
 <?php
 	include 'config.php';
  ?>
-<!DOCTYPE html>v
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -90,15 +90,5 @@
 			font-size: 17px;
 		}
 	</style>
-	<script type="text/javascript">
-		$(document).ready(function(){
-
-			// $('#donation_form_id').on('submit', function(e){
-			// 	e.preventDefault();
-
-			// });
-
-		});
-	</script>
 </body>
 </html>

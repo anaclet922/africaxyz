@@ -7,5 +7,5 @@
 	);
 	$web_title = 'Donation Page';
 	$site_desc = 'Donate, ...';
-	$logo = $base_url . '/logo.png';
+	$logo = $base_url . '/logo.svg';
  ?>
